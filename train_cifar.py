@@ -171,8 +171,6 @@ def main():
     parser.add_argument('--drop_criteria', default='SNR_mean_abs', type=str, choices=['mean', 'E_mean_abs', 'snr', 'E_exp_mean_abs', 'SNR_mean_abs', 'SNR_exp_mean_abs'])
     parser.add_argument('--lambda_exp', default=1.0, type=float)
     parser.add_argument('--add_reg_sigma', default=False, action='store_true', help='if true, add regularization term for sigma to prevent zeros')
-    parser.add_argument('--sigma_softplus', default=True, help="just discriminate with old running on wandb. ")
-    parser.add_argument('--grow_std_init', default=True, type=float, help='init std when growing. to discriminate with old running on wandb. ')
     parser.add_argument('--grow_std', default='mean', type=str, choices=['mean', 'eps'])
     parser.add_argument('--grow_mean_grad', default=False, action='store_true', help='if true, grow mean grad')
     parser.add_argument('--lr_std', default=0.01, type=float, help='lr for std')

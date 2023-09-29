@@ -1,5 +1,3 @@
-""" implementation of https://arxiv.org/abs/1911.11134 """
-
 import numpy as np
 import torch
 import torch.distributed as dist
