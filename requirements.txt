@@ -1,0 +1,7 @@
+torch
+torchvision
+numpy
+pytest
+tensorboard
+uncertainty-calibration
+wandb
