@@ -1,4 +1,4 @@
-## Codes to reproduce our paper "Training Bayesian Neural Networks with Sparse Subspace Variational Inference"
+## Codes to reproduce our ICLR 2024 paper "Training Bayesian Neural Networks with Sparse Subspace Variational Inference"
 
 ### Requirements
 ```shell
