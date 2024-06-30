@@ -11,5 +11,5 @@ do
         --wd 5e-4 \
         --use_bnn \
         --exp_name BNN_${DENSITY}_seed${SEED} \
-        --dense_allocation $DENSITY \
+        --dense_allocation $DENSITY
 done
